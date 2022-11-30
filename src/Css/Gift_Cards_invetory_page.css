@@ -1,0 +1,340 @@
+.Gift_Cards_invetory_page{
+    padding: 30px;
+}
+.Gift_Cards_invetory_page_table{
+    background: rgba(32, 30, 35, 1);
+    border-radius: 30px;
+    margin-top: 50px;
+    padding: 30px;
+}
+#table_content_button{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+#table_content_button h3{
+    margin-left: 15px;
+}
+#table_content_button button{
+    border-radius: 28px;
+    padding: 15px 25px;
+    font-size: 13px;
+    border-style: none;
+    /* font-weight: 600; */
+    background: linear-gradient(180deg, #FFE299 0%, #F6B202 100%);
+}
+#Gift_cards_td{
+    color: white;
+    font-size: 15px;
+}
+#Gift_cards_td2{
+    color: white;
+    text-align: end;
+}
+
+/* modal css */
+
+
+.M_2banner .Banner_Scrole img{
+    position: relative;
+    height:120px;
+    width: 200px;
+    margin: 5px;
+}
+.Scroll_banner{
+    height: 370px;
+    overflow: auto;
+
+}
+.Scroll_banner::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  .Scroll_banner::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  .Scroll_banner::-webkit-scrollbar-thumb {
+    background: rgba(255, 190, 92, 1);
+  }
+  .save_card button{
+    padding: 9px 72px;
+    border-radius: 25px;
+    background-image: linear-gradient(180deg, #ffde88 0%, #ffb905 100%);
+    font-size: 17px;
+    text-align: center;
+    /* width: 50%; */
+    line-height: 27px;
+    border: none;
+    margin-top: 24px;
+  }
+.M_Banner_Input2 input{
+    padding: 8px ;
+    border-radius: 14px;
+    border-style: none;
+    background: rgba(49, 48, 50, 1);
+    caret-color: white;
+    border: 1px solid rgba(254, 221, 136, 1);
+    width: 100%;
+}
+.M_Banner_Input2{
+    margin-top: 10px;
+}
+.Add_Gift_Card_modal{
+    background: #201e23;
+    border: 3px solid #5e5e5e;
+    border-radius: 23px;
+    padding: 20px;
+    top: 150px;
+    position: absolute;
+}
+.save_Card_Button{
+
+}
+
+
+
+/* media responsive */
+
+@media screen and (max-width:1024px){
+ 
+    .Add_Gift_Card_modal{
+        top: 100px;
+       
+    }
+}
+
+@media screen and (max-width:768px){
+ 
+    .Add_Gift_Card_modal{
+        top: 100px;
+       
+    }
+    
+}
+
+
+
+@media screen and (max-width:425px){
+    .Modal_card_Overflow{
+        height: 580px;
+        overflow: auto;
+    }
+    .Add_Gift_Card_modal{
+        top: 35px;
+        width: 90%;
+        max-width: 340px;
+    }
+    .edit_user_text{
+        font-size: 17px;
+    } 
+    .Add_Gift_Card_modal .save_card button{
+        padding: 10px ;
+        width: 100%;
+    }
+    .Add_Gift_Card_modal .M_1banner{
+        margin: 0;
+    }
+}
+
+
+
+@media screen and (max-width:375px){
+    .Modal_card_Overflow{
+        height: 580px;
+        overflow: auto;
+    }
+    .Add_Gift_Card_modal{
+        top: 35px;
+        width: 90%;
+        max-width: 320px;
+    }
+    .edit_user_text{
+        font-size: 17px;
+    } 
+    .Add_Gift_Card_modal .save_card button{
+        padding: 10px ;
+        width: 100%;
+    }
+    .Add_Gift_Card_modal .M_1banner{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:320px){
+    .Modal_card_Overflow{
+        height: 580px;
+        overflow: auto;
+    }
+    .Add_Gift_Card_modal{
+        top: 35px;
+        width: 90%;
+        max-width: 300px;
+    }
+    .edit_user_text{
+        font-size: 17px;
+    } 
+    .Add_Gift_Card_modal .save_card button{
+        padding: 10px ;
+        width: 100%;
+    }
+    .Add_Gift_Card_modal .M_1banner{
+        margin: 0;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media responsive */
+
+
+
+@media screen and (max-width:1024px){
+    .Gift_Cards_invetory_page{
+        padding: 10px;
+    }
+    .Gift_Cards_invetory_page_table{
+        padding: 20px;
+        width: 1000px;
+        overflow: auto;
+    }
+    #table_content_button h3{
+        margin: 0;
+    }
+    #table_content_button{
+        width: 1400px;
+    }
+   
+}
+
+
+
+@media screen and (max-width:768px){
+    .Gift_Cards_invetory_page{
+        padding: 10px;
+    }
+    .Gift_Cards_invetory_page_table{
+        padding: 20px;
+        width: 745px;
+        overflow: auto;
+    }
+    #table_content_button h3{
+        margin: 0;
+    }
+    #table_content_button{
+        width: 1400px;
+    }
+    
+ 
+    #GiftRewdHead .H-1 h1{
+        font-size: 35px;
+    }
+   
+}
+
+@media screen and (max-width:425px){
+    .Gift_Cards_invetory_page{
+        padding: 10px;
+    }
+    .Gift_Cards_invetory_page_table{
+        padding: 20px;
+        width: 405px;
+        overflow: auto;
+    }
+    #table_content_button h3{
+        margin: 0;
+    }
+    #table_content_button{
+        width: 1400px;
+    }
+    #GiftRewdHead{
+        flex-direction: column;
+    }
+    #GiftRewdHead .H-2 input{
+        width: 100%;
+    }
+    #GiftRewdHead  .H-2 img{
+        left: 11px;
+        top: 34px;
+    }
+    #GiftRewdHead .H-1 h1{
+        font-size: 35px;
+    }
+   
+}
+
+
+@media screen and (max-width:375px){
+    .Gift_Cards_invetory_page{
+        padding: 10px;
+    }
+    .Gift_Cards_invetory_page_table{
+        padding: 20px;
+        width: 355px;
+        overflow: auto;
+    }
+    #table_content_button h3{
+        margin: 0;
+    }
+    #table_content_button{
+        width: 1400px;
+    }
+    #GiftRewdHead{
+        flex-direction: column;
+    }
+    #GiftRewdHead .H-2 input{
+        width: 100%;
+    }
+    #GiftRewdHead  .H-2 img{
+        left: 11px;
+        top: 34px;
+    }
+    #GiftRewdHead .H-1 h1{
+        font-size: 32px;
+    }
+}
+
+
+
+@media screen and (max-width:320px){
+    .Gift_Cards_invetory_page{
+        padding: 10px;
+    }
+    .Gift_Cards_invetory_page_table{
+        padding: 20px;
+        width: 300px;
+        overflow: auto;
+    }
+    #table_content_button h3{
+        margin: 0;
+    }
+    #table_content_button{
+        width: 1400px;
+    }
+    #GiftRewdHead{
+        flex-direction: column;
+    }
+    #GiftRewdHead .H-2 input{
+        width: 100%;
+    }
+    #GiftRewdHead  .H-2 img{
+        left: 11px;
+        top: 34px;
+    }
+    #GiftRewdHead .H-1 h1{
+        font-size: 28px;
+    }
+ 
+   
+}

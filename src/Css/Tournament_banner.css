@@ -1,0 +1,244 @@
+.Tournament_banner{
+    padding: 30px;
+}
+.Tournament{
+    background: rgba(32, 30, 35, 1);
+    border-radius: 30px;
+    margin-top: 50px;
+    padding: 30px;
+}
+.Tournament_banner_First h5{
+    color: white;
+    font-size: 13px;
+    padding: 15px 10px;
+    text-align: center;
+}
+.Tournament_banner_sections{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.Tournament_banner_First{
+    margin: auto 30px;
+}
+#Tournament_Banner_BUtton_Div h3{
+    color: white;
+}
+#Tournament_Banner_BUtton_Div{
+    display: flex ;
+    justify-content: space-between;
+}
+#Tournament_Banner_BUtton_Div button{
+    border-style: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: black;
+    /* font-weight: 600; */
+    background: linear-gradient(180deg, #FFE299 0%, #F6B202 100%);
+}
+
+
+
+/* modal css */
+.M_banner{
+    display: flex;
+}
+.M_Banner_Input input{
+    padding: 8px 5px;
+    border-radius: 15px;
+    border-style: none;
+    background: rgba(55, 55, 55, 1);
+    caret-color: aliceblue;
+    width: 100%;
+    margin-top:5px ;
+}
+.M_Banner_Input{
+    margin-top: 15px;
+}
+.M_1banner{
+    margin: 10px;
+}
+
+.save_Banner button{
+    padding: 13px 50px;
+    border-radius: 25px;
+    background-image: linear-gradient(180deg, #ffde88 0%, #ffb905 100%);
+    font-size: 17px;
+    text-align: center;
+    border: none;
+    margin-top: 24px;
+}
+.M_1banner h5{
+    color: rgba(147, 147, 148, 1);
+
+    font-weight: 100;
+    font-size: 15px;
+}
+.M_2banner h5{
+    color: rgba(147, 147, 148, 1);
+    font-weight: 100;
+    font-size: 15px;
+}
+.M_2banner img{
+    height: 215px;
+}
+.M_2banner{
+    margin: 15px;
+}
+.Modal_Banner{
+       background: #201e23;
+    border: 3px solid #5e5e5e;
+    border-radius: 23px;
+    padding: 20px;
+    top: 220px;
+    position: absolute;
+}
+
+
+
+
+/* modal media responsive */
+
+@media screen and (max-width:425px){
+    .M_banner{
+        flex-direction: column;
+    }
+    .Modal_Banner{
+        top: 50px;
+    }
+   
+}
+
+
+@media screen and (max-width:375px){
+    .M_banner{
+        flex-direction: column;
+    }
+    .Modal_Banner{
+        top: 50px;
+    }
+   
+}
+
+
+@media screen and (max-width:320px){
+    .M_banner{
+        flex-direction: column;
+    }
+    .Modal_Banner{
+        top: 50px;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media responsive */
+
+
+
+@media screen and (max-width:1024px){
+   
+   
+}
+
+
+
+@media screen and (max-width:768px){
+   
+   
+}
+
+@media screen and (max-width:425px){
+    .Tournament_banner .Header .H-1 h1{
+        font-size: 30px;
+    }
+   
+}
+
+
+@media screen and (max-width:375px){
+    .Tournament_banner{
+        padding: 10px;
+    }
+    .Tournament_banner_sections{
+        width: 300px;
+        /* flex-direction: column; */
+    }
+    #Tournament_Banner_BUtton_Div{
+        flex-direction: column;
+        text-align: center;
+    }
+    #Tournament_Banner_BUtton_Div button{
+        margin: 10px 0;
+    }
+    .Tournament{
+        width: 350px;
+        padding: 30px;
+        margin-top: 20px;
+    }
+    .Tournament_banner_First{
+        margin: 0;
+    }
+    #table_content_button h3{
+        margin-left: 50px;
+    }
+    .Tournament .table_content_button{
+        width: 300px;
+    }
+    .Tournament_banner_First img{
+        height: 330px;
+    }
+}
+
+
+
+@media screen and (max-width:320px){
+    .Tournament_banner{
+        padding: 10px;
+    }
+    .Tournament_banner_sections{
+        width: 270px;
+        /* flex-direction: column; */
+    }
+    #Tournament_Banner_BUtton_Div{
+        flex-direction: column;
+        text-align: center;
+    }
+    #Tournament_Banner_BUtton_Div button{
+        margin: 10px 0;
+    }
+    .Tournament{
+        width: 300px;
+        padding: 30px;
+        margin-top: 20px;
+    }
+    .Tournament_banner_First{
+        margin: 0;
+    }
+    #table_content_button h3{
+        margin-left: 50px;
+    }
+    .Tournament .table_content_button{
+        width: 300px;
+    }
+    .Tournament_banner_First img{
+        height: 270px;
+    }
+    
+}

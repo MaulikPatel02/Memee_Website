@@ -1,0 +1,357 @@
+.SettingsPageHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.UH-123{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.UH-123 h1{
+    font-size: 48px;
+    font-weight: 200;
+    margin-left: 18px;
+   
+}
+.UH-123 img{
+    height: 40px;
+    
+    margin-left: 13px;
+}
+.SettingsPage{
+    padding: 30px;
+    margin-bottom: 80px;
+}
+
+.SettingsPageData{
+    background: rgba(32, 30, 35, 1);
+    border-radius: 35px;
+    width: 60%;
+    margin: 20px 20px;
+    margin-top: 50px;
+}
+.Simg img{
+    background-color:rgb(245, 179, 94);
+    border-radius: 50%;
+    height: 100px;
+    margin-top: 40px;
+}
+.Simgbtn{
+    border-style: solid;
+    color: white;
+    border-radius: 17px;
+    border-width: 1px;
+    margin: 18px 20px;
+    padding: 10px;
+    width: 18%;
+}
+.Simgbtn h5{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 100;
+}
+.SSSSSSPage{
+text-align: -webkit-center;
+}
+#hr{
+    color: white;
+    margin-top:40px ;
+}
+.FormOfSettingsPage{
+    color: white;
+    padding: 20px 50px;
+    width: 100%;
+}
+.FormOfSettingsPage form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:10px 20px;
+    padding-left: 35px;
+}
+.FormOfSettingsPage form input{
+    padding: 13px;
+    border-radius: 20px;
+    border-style: none;
+    background: #313032;
+    width: 90%;
+}
+.FormOfSettingsPage form input::placeholder{
+    color: grey;
+    font-size: 15px;
+}
+
+.FF-1{
+    display: flex;
+    width: 100%;
+}
+.FF-1-1 h5{
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+.FF-1-1{
+    width: 100%;
+    margin: 20px auto;
+}
+
+.FormOfSettingsPage form button{
+    padding: 12px;
+    border-style: none;
+    background: linear-gradient(180deg, #FFE299 0%, #F6B202 100%);
+    border-radius: 24px;
+    width: 30%;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 35px;
+}
+#SettingFormbtn{
+    text-align: -webkit-center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media responsive */
+
+
+
+@media screen and (max-width:1024px){
+    .SettingsPage{
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .SettingsPageData{
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .FormOfSettingsPage{
+        padding: 10px;
+    }
+    .FormOfSettingsPage form{
+        padding: 0;
+        padding-bottom: 50px;
+    }
+    .FF-1{
+        /* flex-direction: column; */
+        text-align: center;
+    }
+    .FormOfSettingsPage form button{
+        width: 20%;
+    }
+    .FormOfSettingsPage form input{
+        width: 90%;
+    }
+    .FF-1-1{
+        margin: 8px auto;
+    }
+    .Simgbtn{
+        width: 15%;
+    }
+    .SettingsPageHeader{
+        margin-top: 4px;
+    }
+   
+}
+
+
+
+@media screen and (max-width:768px){
+    .SettingsPage{
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .SettingsPageData{
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .FormOfSettingsPage{
+        padding: 10px;
+    }
+    .FormOfSettingsPage form{
+        padding: 0;
+        padding-bottom: 50px;
+    }
+    .FF-1{
+        /* flex-direction: column; */
+        text-align: center;
+    }
+    .FormOfSettingsPage form button{
+        width: 30%;
+    }
+    .FormOfSettingsPage form input{
+        width: 90%;
+    }
+    .FF-1-1{
+        margin: 8px auto;
+    }
+    .Simgbtn{
+        width: 25%;
+    }
+    .SettingsPageHeader{
+        margin-top: 4px;
+    }
+   
+}
+
+@media screen and (max-width:425px){
+    .SettingsPage{
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+   
+    .SettingsPageData{
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .FormOfSettingsPage{
+        padding: 10px;
+    }
+    .FormOfSettingsPage form{
+        padding: 0;
+        padding-bottom: 50px;
+    }
+    .FF-1{
+        flex-direction: column;
+        text-align: center;
+    }
+    .FormOfSettingsPage form button{
+        width: 50%;
+    }
+    .FormOfSettingsPage form input{
+        width: 100%;
+    }
+    .FF-1-1{
+        margin: 8px auto;
+    }
+    .Simgbtn{
+        width: 35%;
+    }
+    .SettingsPageHeader .UH-123 h1{
+        font-size: 43px;
+        margin-left: 30px;
+    }
+    .SettingsPageHeader{
+        margin-top: 4px;
+    }
+   
+}
+
+
+@media screen and (max-width:375px){
+    .SettingsPage{
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .SettingsPageData{
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .FormOfSettingsPage{
+        padding: 10px;
+    }
+   
+    .FormOfSettingsPage form{
+        padding: 0;
+        padding-bottom: 50px;
+    }
+    .FF-1{
+        flex-direction: column;
+        text-align: center;
+    }
+    .FormOfSettingsPage form button{
+        width: 60%;
+    }
+    .FormOfSettingsPage form input{
+        width: 100%;
+    }
+    .FF-1-1{
+        margin: 8px auto;
+    }
+    .Simgbtn{
+        width: 40%;
+    }
+    .SettingsPageHeader .UH-123 h1{
+        font-size: 36px;
+        margin-left: 25px;
+    }
+    .SettingsPageHeader{
+        margin-top: 4px;
+    }
+   
+}
+
+
+
+@media screen and (max-width:320px){
+    .SettingsPage{
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+   
+    .SettingsPageData{
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .FormOfSettingsPage{
+        padding: 10px;
+    }
+    .FormOfSettingsPage form{
+        padding: 0;
+        padding-bottom: 50px;
+    }
+    .FF-1{
+        flex-direction: column;
+        text-align: center;
+    }
+    .FormOfSettingsPage form button{
+        width: 80%;
+    }
+    .FormOfSettingsPage form input{
+        width: 95%;
+    }
+    .FF-1-1{
+        margin: 8px auto;
+    }
+    .Simgbtn{
+        width: 40%;
+    }
+    .SettingsPageHeader .UH-123 h1{
+        font-size: 32px;
+        margin-left: 18px;
+    }
+    .SettingsPageHeader{
+        margin-top: 4px;
+    }
+}
+   

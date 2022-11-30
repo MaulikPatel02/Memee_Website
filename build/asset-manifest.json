@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.01c0cd3c.css",
+    "main.js": "/static/js/main.535ac0c1.js",
+    "static/js/787.b67470d6.chunk.js": "/static/js/787.b67470d6.chunk.js",
+    "static/media/Memee_post.png": "/static/media/Memee_post.e1b7ee0bdeb16aacd048.png",
+    "static/media/Got_user.png": "/static/media/Got_user.26c2eb3ae70fec5f036b.png",
+    "static/media/Reward_modal_Img.png": "/static/media/Reward_modal_Img.69e1ed348f2ea55684ec.png",
+    "static/media/Dear_User.png": "/static/media/Dear_User.67e7d2464a82ebc6bb81.png",
+    "static/media/April_Banner.png": "/static/media/April_Banner.582b3539b8eb38135d02.png",
+    "static/media/Ghost_User.png": "/static/media/Ghost_User.7124f1091cacbc1d8f75.png",
+    "static/media/june_Banner.png": "/static/media/june_Banner.d271ed63185db73df12e.png",
+    "static/media/May_Banner.png": "/static/media/May_Banner.f4be112113134bad54e3.png",
+    "static/media/Chat_user_1.png": "/static/media/Chat_user_1.c04f30a5f3d62d111001.png",
+    "index.html": "/index.html",
+    "main.01c0cd3c.css.map": "/static/css/main.01c0cd3c.css.map",
+    "main.535ac0c1.js.map": "/static/js/main.535ac0c1.js.map",
+    "787.b67470d6.chunk.js.map": "/static/js/787.b67470d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01c0cd3c.css",
+    "static/js/main.535ac0c1.js"
+  ]
+}

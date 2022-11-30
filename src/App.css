@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+a:hover{
+  color: black;
+}
+button:hover{
+  cursor: pointer;
+}
+
+input,
+a,
+button,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.A {
+  display: flex;
+}
+
+
+.A-1 {
+  flex: 1.2;
+  background-color: #201e23;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-color: rgba(128, 128, 128, 0.39);
+  border-width: 0.2px;
+}
+
+.A-2 {
+  flex: 6;
+  background-color: black;
+}
+#memeeToggle {
+  position: relative;
+  color: grey;
+  left: 10px;
+  top: 10px;
+  display: none;
+  z-index: 5;
+}
+#backSideButton {
+  color: grey;
+  position: relative;
+  float: right;
+  top: 10px;
+  right: 10px;
+  display: none;
+}
+#ExtraSideBar {
+  display: none;
+}
+
+/* media responsive */
+
+@media screen and (max-width: 1024px) {
+  .A-1 {
+    z-index: 1;
+    display: block;
+    transition: 2s;
+    z-index: 1;
+    overflow-x: hidden;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    width: 30%;
+    z-index: 2;
+  }
+  #memeeToggle {
+    display: block;
+    z-index: 5;
+  }
+  #dashboardHeader .H-1{
+    z-index: 1px;
+  }
+  #backSideButton {
+    display: block;
+  }
+  #PrSideBar {
+    display: none;
+  }
+  #ExtraSideBar {
+    display: block;
+    z-index: 10;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .A-1 {
+    z-index: 1;
+    display: block;
+    transition: 2s;
+    z-index: 1;
+    overflow-x: hidden;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    width: 40%;
+    z-index: 2;
+  }
+  #memeeToggle {
+    display: block;
+    z-index: 5;
+  }
+  #dashboardHeader .H-1{
+    z-index: 1px;
+  }
+  #backSideButton {
+    display: block;
+  }
+  #PrSideBar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .A-1 {
+    z-index: 1;
+    display: block;
+    transition: 2s;
+    z-index: 1;
+    overflow-x: hidden;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    width: 70%;
+    z-index: 2;
+  }
+  #memeeToggle {
+    display: block;
+    z-index: 5;
+  }
+  #dashboardHeader .H-1{
+    z-index: 1px;
+  }
+  #backSideButton {
+    display: block;
+  }
+  #PrSideBar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .A-1 {
+    z-index: 1;
+    display: block;
+    transition: 2s;
+    z-index: 1;
+    overflow-x: hidden;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    width: 80%;
+    z-index: 2;
+  }
+  #memeeToggle {
+    display: block;
+    z-index: 5;
+  }
+  #dashboardHeader .H-1{
+    z-index: 1px;
+  }
+  #backSideButton {
+    display: block;
+  }
+  #PrSideBar {
+    display: none;
+  }
+  #ExtraSideBar{
+    z-index: 10;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .A-1 {
+    z-index: 8;
+    display: block;
+    transition: 2s;
+    z-index: 1;
+    overflow-x: hidden;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    width: 92%;
+    z-index: 2;
+  }
+
+  #memeeToggle {
+    display: block;
+    z-index: 5;
+  }
+  #dashboardHeader .H-1{
+    z-index: 1px;
+  }
+  #backSideButton {
+    display: block;
+  }
+  #PrSideBar {
+    display: none;
+  }
+  #ExtraSideBar{
+    z-index: 10;
+  }
+}
+
+
+.ReactModal__Content{
+  border: none!important;
+  background-color: #201e2300!important;
+  z-index: 50!important;
+}
+.ReactModal__Overlay{
+  z-index: 50;
+} 

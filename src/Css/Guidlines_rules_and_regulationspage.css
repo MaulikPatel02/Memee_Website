@@ -1,0 +1,266 @@
+.Guidlines_rules_and_regulationspage {
+  padding: 30px;
+}
+.Guidlines {
+  background: rgba(32, 30, 35, 1);
+  border-radius: 30px;
+  margin-top: 50px;
+  padding: 30px;
+}
+.dropdown button{
+    border-radius: 18px;
+    padding: 8px 25px;
+    background: rgba(49, 48, 50, 1);
+    color: white;
+    border-style: none;
+}
+.dropdown-menu{
+    background: rgba(49, 48, 50, 1);
+    color: white;
+    border-style: none;
+    padding: 5px;
+    font-size: 16px;
+    padding-right: 60px;
+    padding-left: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.Guidlines1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#gbtn{
+    padding: 10px 40px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #FFE299 0%, #F6B202 100%);
+    font-weight: 600;
+    border-style: none;
+}
+.Guidlines_Details{
+    display: flex;
+    margin-top: 30px;
+}
+.Guidlines_Details-1{
+    flex: 5.5;
+    background: rgba(49, 48, 50, 1);
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    height: 100%;
+}
+.Guidlines_Details-1 h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px auto;
+}
+.Guidlines_Details-1 p{
+    font-size: 14px;
+    margin: 20px auto;
+}
+.Guidlines_Details-2{
+    flex: 2;
+    border-style: dashed;
+    border-width: 2px;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    padding: 20px;
+    border-color: rgba(128, 128, 128, 0.753);
+    margin: 25px;
+}
+#hr_Guild{
+    color: white;
+    margin-bottom:30px;
+    border: solid 1px;
+}
+#GG-1{
+    color: white;
+}
+#GG-2{
+    color: grey;
+    font-size: 15px;
+    margin-top: 20px;
+}
+#GG-3{
+   color: grey;
+   margin: 0; 
+   margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media responsive */
+
+
+ @media screen and (max-width:1024px){
+   
+   
+}
+
+
+
+@media screen and (max-width:768px){
+    .Guidlines_rules_and_regulationspage .H-1 h1{
+        font-size: 45px;
+    }
+    .Guidlines_rules_and_regulationspage .H-1{
+        flex: 2;
+        
+    }
+    .Guidlines_rules_and_regulationspage .H-2{
+        flex: 2;
+    }
+    .Guidlines_rules_and_regulationspage .H-3{
+        flex: 0.5;
+    }
+   
+   
+}
+
+@media screen and (max-width:425px){
+    .Guidlines_rules_and_regulationspage{
+        padding: 10px;
+    }
+    .Guidlines{
+        padding: 20px;
+        margin: 0;
+    }
+    .Guidlines_Details{
+        flex-direction: column;
+    }
+    .dropdown button{
+        padding: 10px 16px;
+    }
+    .Guidlines1{
+        flex-direction: column;
+    }
+    .Guidlines_Details-1{
+        padding: 15px;
+        text-align: center;
+    }
+    .Guidlines_Details-2{
+        padding: 20px;
+        margin: 25px 0;
+    }
+    .Guidlines_rules_and_regulationspage .H-1 h1{
+        font-size: 45px;
+    }
+    .Guidlines_rules_and_regulationspage .Header {
+        flex-direction: column;
+    }
+    .Guidlines_rules_and_regulationspage .H-2{
+        margin-bottom: 15px;
+    }
+    #gbtn{
+        margin-top: 18px;
+    }
+   
+}
+
+
+@media screen and (max-width:375px){
+    .Guidlines_rules_and_regulationspage{
+        padding: 10px;
+    }
+    .Guidlines{
+        padding: 20px;
+        margin: 0;
+        width: 355px;
+    }
+    .Guidlines_Details{
+        flex-direction: column;
+    }
+    .dropdown button{
+        padding: 10px 16px;
+    }
+    .Guidlines1{
+        flex-direction: column;
+    }
+    .Guidlines_Details-1{
+        padding: 15px;
+        text-align: center;
+    }
+    .Guidlines_Details-2{
+        padding: 20px;
+        margin: 25px 0;
+    }
+    .Guidlines_rules_and_regulationspage .H-1 h1{
+        font-size: 35px;
+    }
+    .Guidlines_rules_and_regulationspage .Header {
+        flex-direction: column;
+    }
+    .Guidlines_rules_and_regulationspage .H-2{
+        margin-bottom: 15px;
+    }
+    #gbtn{
+        margin-top: 18px;
+    }
+   
+} 
+
+
+
+@media screen and (max-width:320px){
+    .Guidlines_rules_and_regulationspage{
+        padding: 10px;
+    }
+    .Guidlines{
+        padding: 15px;
+        margin: 0;
+        width: 300px;
+    }
+    .Guidlines_Details{
+        flex-direction: column;
+    }
+    .dropdown button{
+        padding: 10px 16px;
+    }
+    .Guidlines1{
+        flex-direction: column;
+    }
+    .Guidlines_Details-1{
+        padding: 15px;
+        text-align: center;
+    }
+    .Guidlines_Details-2{
+        padding: 20px;
+        margin: 25px 0;
+    }
+    .Guidlines_rules_and_regulationspage .H-1 h1{
+        font-size: 30px;
+    }
+    .Guidlines_rules_and_regulationspage .Header {
+        flex-direction: column;
+    }
+    .Guidlines_rules_and_regulationspage .H-2{
+        margin-bottom: 15px;
+    }
+    #gbtn{
+        margin-top: 18px;
+    }
+    .Guidlines1 .dropdown{
+        font-size: 12px;
+    }
+   
+}

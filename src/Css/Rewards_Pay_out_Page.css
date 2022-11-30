@@ -1,0 +1,184 @@
+.Rewards_Pay_out_Page{
+    padding:30px;
+}
+.Rewards_Pay_out_Page-1{
+    background: rgba(32, 30, 35, 1);
+    border-radius: 30px;
+    margin-top: 50px;
+    padding: 30px;
+}
+.Rewards_Pay_out_Page-backpage{
+    display: flex;
+    align-items: center;
+}
+.Rewards_Pay_out_Page-backpage h4{
+    margin: auto 15px;
+    color: white;
+    font-size: 18px;
+}
+.Rewards_Pay_out_Page-backpage img{
+    height: 18px;
+}
+#UpWotesRewards{
+    color: white;
+    font-size: 14px;
+}
+#UpWotesRewards2 h4{
+    margin: 0;
+}
+#UpWotesRewards3 select{
+    padding: 10px;
+    background: rgba(49, 48, 50, 1);
+    color: rgba(216, 216, 216, 1);
+    width: 80%;
+    border-radius: 18px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+/* media responsive */
+
+
+
+@media screen and (max-width:1024px){
+    .Rewards_Pay_out_Page{
+        padding: 10px;
+    }
+    .Rewards_Pay_out_Page-1{
+        padding: 20px;
+        width: 1000px;
+        overflow: auto;
+    }
+    .Rewards_Pay_out_Page .Header{
+        /* flex-direction: column; */
+    }
+    .Rewards_Pay_out_Page .H-1 h1{
+        font-size: 45px;
+    }
+    .Rewards_Pay_out_Page .H-2 input{
+        /* margin: 18px 0px; */
+        width: 100%;
+    }
+    .Rewards_Pay_out_Page .H-2 img{
+        left: 11px;
+        top: 34px;
+    }
+   
+   
+}
+
+
+
+@media screen and (max-width:768px){
+    .Rewards_Pay_out_Page{
+        padding: 10px;
+    }
+    .Rewards_Pay_out_Page-1{
+        padding: 20px;
+        width: 745px;
+        overflow: auto;
+    }
+    
+    .Rewards_Pay_out_Page .H-1 h1{
+        font-size: 40px;
+    }
+    .Rewards_Pay_out_Page .H-2 input{
+        /* margin: 18px 0px; */
+        width: 100%;
+    }
+    .Rewards_Pay_out_Page .H-2 img{
+        left: 11px;
+        top: 34px;
+    }
+   
+   
+}
+
+@media screen and (max-width:425px){
+    .Rewards_Pay_out_Page{
+        padding: 10px;
+    }
+    .Rewards_Pay_out_Page-1{
+        padding: 20px;
+        width: 405px;
+        overflow: auto;
+    }
+    .Rewards_Pay_out_Page .Header{
+        flex-direction: column;
+    }
+    .Rewards_Pay_out_Page .H-1 h1{
+        font-size: 35px;
+    }
+    .Rewards_Pay_out_Page .H-2 input{
+        /* margin: 18px 0px; */
+        width: 100%;
+    }
+    .Rewards_Pay_out_Page .H-2 img{
+        left: 11px;
+        top: 34px;
+    }
+   
+   
+}
+
+
+@media screen and (max-width:375px){
+    .Rewards_Pay_out_Page{
+        padding: 10px;
+    }
+    .Rewards_Pay_out_Page-1{
+        padding: 20px;
+        width: 355px;
+        overflow: auto;
+    }
+    .Rewards_Pay_out_Page .Header{
+        flex-direction: column;
+    }
+    .Rewards_Pay_out_Page .H-1 h1{
+        font-size: 33px;
+    }
+    .Rewards_Pay_out_Page .H-2 input{
+        /* margin: 18px 0px; */
+        width: 100%;
+    }
+    .Rewards_Pay_out_Page .H-2 img{
+        left: 11px;
+        top: 34px;
+    }
+   
+   
+}
+
+
+
+@media screen and (max-width:320px){
+    .Rewards_Pay_out_Page{
+        padding: 10px;
+    }
+    .Rewards_Pay_out_Page-1{
+        padding: 20px;
+        width: 300px;
+        overflow: auto;
+    }
+    .Rewards_Pay_out_Page .Header{
+        flex-direction: column;
+    }
+    .Rewards_Pay_out_Page .H-1 h1{
+        font-size: 28px;
+    }
+    .Rewards_Pay_out_Page .H-2 input{
+        /* margin: 18px 0px; */
+        width: 100%;
+    }
+    .Rewards_Pay_out_Page .H-2 img{
+        left: 11px;
+        top: 34px;
+    }
+   
+}

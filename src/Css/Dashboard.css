@@ -1,0 +1,1174 @@
+.DashBoard{
+    display: flex;
+    color: white;
+    margin-top: 50px;
+}
+
+.DashBoard-1{
+    flex: 2.3;
+    margin: 10px;
+    margin-left: 50px;
+}
+.DashBoard2_1{
+    display: flex;
+}
+.DashBoard-2{
+    flex: 1;
+}
+.D-11{
+    background: #201E23;
+    padding: 25px;
+    border-radius: 20px;
+} 
+.D-11 h1{
+    font-size: 18px;
+}
+.Chart{
+    background: rgba(61, 58, 58, 1);
+    padding:10px;
+    border-radius: 10px;
+}
+.recharts-default-legend{
+    display: none;
+}
+.recharts-default-tooltip{
+    display: none;
+}
+.recharts-tooltip-cursor{
+   display: none;
+}
+.recharts-cartesian-axis-tick-line{
+    display: none;
+}
+/* .recharts-wrapper{
+    animation: none;
+    transition: none;
+}
+.recharts-surface{
+    animation: none;
+    transition: none;
+}
+.recharts-responsive-container{
+    animation: none;
+    transition: none;
+}
+.recharts-legend-wrapper{
+    animation: none;
+    transition: none;
+} */
+.Chart-2{
+    background: #3D3A3A;
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+}
+.T-1{
+    display: flex;
+    align-items: center;
+    margin: 5px auto;
+}
+.T-1 h6{
+    margin: 0;
+}
+.T-1 h6{
+    font-size: 13px;
+    color: rgba(183, 183, 183, 1);
+
+}
+.T-1 img{
+    height: 19px;
+    width: 19px;
+    margin: auto 8px;
+}
+.T-2{
+    /* margin: 10px auto; */
+    margin-top: 26px;
+    margin-left: 9px;
+}
+.TotalUser .T-2 h1{
+    font-weight: 600;
+    font-size: 35px;
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+}
+.T-3{
+    background-color: white;
+    height: 3px;
+    border-radius: 10px;
+    width: 75%;
+    margin-left: 11px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+.T33{
+    height: 3px;
+    border-radius: 10px;
+    background: #6C5DD3;
+    width: 60%;
+}
+.T33:nth-child(){
+    background: #6CD163;
+}
+.TotalUser{
+    width: 100%;
+    padding: 15px;
+    border-style: solid;
+    border-color: white;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-width: 1px;
+}
+.TotalUser:nth-child(4){
+    border-right: none;
+}
+.D-22{
+    padding: 13px;
+}
+.D-11 h1{
+    font-size: 21px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+
+.D-2-2{
+    display: flex;
+    background: #201E23;
+    border-radius: 20px;
+    align-items: center;
+    margin: 25px auto;
+    padding: 25px;
+    width: 100%;
+}
+
+.imageWrapper{
+    /* display: flex; */
+    align-items: center;
+
+}
+
+.D-221{
+    flex: 2;
+    margin-left: 10px;
+}
+.D-222{
+    flex: 5;
+}
+
+
+.backGround{
+    /* /* position: relative; */
+    bottom: 0px; 
+   
+}
+.header_div{
+    /* margin-top: -30px; */
+    /* margin-left: 24px; */
+}
+
+.postReport{
+    /* position: absolute ; */
+    background: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    /* top:0; */
+    padding: 10px;
+    /* z-index: 1; */
+    width: 100%;
+    /* margin-right: 35px; */
+}
+.postReport .post-1 img{
+    
+    left: 0;
+    margin: 10px;
+    bottom:0;
+}
+.D-221 h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.post-2 ul li{
+    text-decoration: none;
+}
+.post-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-3 h6{
+    display: flex;
+    font-size: 14px;
+}
+.post-3 h5{
+    font-size: 15px;
+    color: #808191;
+    font-weight: 200;
+}
+.post-3 h6 img{
+    width: 18px;
+    left: 0;
+    margin-left: 5px;
+    font-weight: 200;
+    bottom:0;
+}
+.post-2{
+    margin-top: 15px;
+}
+
+.Dash-1{
+    background: linear-gradient(180deg, #FFE299 0%, #F6B202 100%);
+    border-radius: 30px;
+    padding: 10px;
+    margin: auto 30px;
+    width: 85%;
+    cursor: pointer;
+}
+.Dash-1 h5{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.DashBoard-2{
+    margin: 10px 20px;
+}
+
+.Dash-2{
+    background: rgba(32, 30, 35, 1);
+    border-radius: 24px;
+    padding: 15px;
+    padding-top: 25px;
+    margin: 20px 30px;
+    width: 85%;
+    margin-top:30px ;
+}
+
+.dash-2-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    margin: auto 15px;
+}
+
+.dash-2-2 h5{
+    font-size: 18px;
+}
+
+.dash-2-2 h6{
+    font-size: 12px;
+}
+.piechart{
+    display: flex;
+    justify-content: center;
+}
+.dash-2-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: auto 10px; */
+}
+#yellow{
+    align-items: center;
+    font-size: 12px;
+}
+#yellow img{
+    margin:auto 8px;
+    height: 20px;
+}
+.Dash-2 h1{
+    text-align: center;
+    margin:29px auto;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.transaction{
+    background: linear-gradient(180deg, #FFE299 0%, #F6B202 100%);
+    border-radius: 30px;
+    padding: 25px;
+    margin: 30px 22px;
+    text-align: center;
+    color: black;
+}
+.transaction h5{
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.Dash-3{
+    background: rgba(32, 30, 35, 1);
+    border-radius: 24px;
+    padding: 15px;
+    margin: 20px 30px;
+    width: 85%;
+    margin-top:27px ;
+}
+
+.Latestuser{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px;
+}
+.Latestuser h6{
+    color: rgba(247, 180, 8, 1);
+}
+.userspic{
+    background-color: white;
+    border-radius: 50%;
+    padding: 1px;
+    margin: 2px;
+}
+.user-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 62px;
+}
+.userspic2 h6{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+
+
+/* modal css */
+
+
+#Edit_User_Button button{
+    width: 100%;
+}
+#DailyCoinModal{
+    top: 250px;
+}
+
+
+
+.Modal2{
+    top: 300px;
+    background: #201e23;
+  border: 3px solid #5e5e5e;
+  border-radius: 23px;
+  padding: 20px;
+  top: 220px;
+  position: absolute;
+  z-index: 20;
+ 
+}
+.MOdalMain2{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-content: center;
+    background: rgb(0 0 0 / 70%);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.137);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 20;
+}
+
+.save_changes2{
+    display: flex;
+    justify-content: center;
+}
+.save_changes2 button {
+    padding: 9px 20px;
+    border-radius: 25px;
+    background-image: linear-gradient(180deg, #ffde88 0%, #ffb905 100%);
+    font-size: 15px;
+    text-align: center;
+    /* width: 50%; */
+    line-height: 27px;
+    border: none;
+    margin-top: 24px;
+  }
+
+
+
+@media screen and (max-width:1024px){
+    .Modal2{
+        top: 230px;
+        width: 90%;
+        max-width: 300px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:768px){
+    .Modal2{
+        top: 230px;
+      
+    }
+}
+
+
+@media screen and (max-width:425px){
+    .Modal2{
+        top: 240px;
+    }
+}
+
+
+@media screen and (max-width:375px){
+    .Modal2{
+        top: 240px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .Modal2{
+        top: 240px;
+    }
+}
+
+
+/* end */
+
+
+
+
+
+
+
+
+/* media responsive */
+
+
+
+@media screen and (max-width:1024px){
+    .Chart{
+        padding: 0;
+       }
+       .DashBoard-1{
+           margin: 0;
+           
+       }
+       .DashBoard{
+           flex-direction: column;
+           margin-top: 20px;
+           /* padding: 20px; */
+       } 
+       .Chart-2{
+           /* flex-direction: column; */
+           /* padding: 20px; */
+       }
+       .D-2-2{
+           /* flex-direction: column; */
+           padding: 15px;
+           width: 97%;
+           text-align: center;
+          
+       }
+       .DashBoard-2{
+           margin: 0;
+           /* display: flex; */
+           
+       }
+       .Dash-1{
+           margin: 0;
+           width: 97%;
+           margin: 10px;
+       }
+       .Dash-3{
+           margin: 20px 10px;
+           width: 97%;
+           padding: 10px 7px;
+       }
+       .Dash-2{
+           margin: 20px 10px;
+           width: 97%;
+           padding: 15px 6px;
+       }
+       .D-11{
+           padding: 0;
+           padding-top: 15px;
+           width: 97%;
+           margin: 10px;
+       }
+       .D-221{
+           margin-left: 0;
+           width: 100%;
+           margin: 15px 0;
+       }
+       .D-222{
+           display: contents;
+       }
+       .D-222 .recharts-surface{
+           width: 650px;
+           height: 300px;
+           
+       }
+       .header_div h2{
+           /* text-align: center; */
+           margin: 10px 0;
+           /* margin-left: px; */
+       }
+       .recharts-default-legend{
+           display: none;
+       }
+       .recharts-default-tooltip{
+           display: none;
+       }
+       .recharts-tooltip-cursor{
+          display: none;
+       }
+       .TotalUser{
+           border:solid 2px grey;
+           border-top: none;
+           border-left: none;
+           border-bottom: none;
+           text-align: center;
+           padding: 20px 10;
+       }
+       .T-3{
+           width: 90%;
+          
+       }
+       .DashBoard-1 .TotalUser .T-2 h1 {
+           font-size: 45px;
+           margin: 10px 0;
+       }
+       .DashBoard-1 .D-11 h1{
+           font-size: 22px;
+           text-align: center;
+       }
+       .transaction{
+           margin: 30px 0;
+           padding: 20px;
+       }
+       .T-1{
+           justify-content: center;
+       }
+       .T-1 h6{
+           font-size: 15px;
+       }
+       .T-1 img{
+           height: 20px;
+           width: 20px;
+       }
+       .DashBoard-1 .D-22 .Chart .recharts-surface{
+           width: 900px;
+           height: 480px;
+       }
+      
+       .recharts-cartesian-axis-tick-line{
+           display: none;
+       }
+       .recharts-text{
+           font-size: 15px;
+       }
+       .postReport{
+           margin: 0;
+       }
+       .showFlexinMedia{
+        display: flex;
+       }
+       #dashboardHeader{
+        margin: 10px;
+    }
+       
+   
+}
+
+
+
+@media screen and (max-width:768px){
+    .Chart{
+        padding: 0;
+       }
+       .postReport{
+        width: 100%;
+       }
+       .DashBoard-1{
+           margin: 0;
+           
+       }
+       .DashBoard{
+           flex-direction: column;
+           margin-top: 20px;
+           /* padding: 20px; */
+       } 
+       .Chart-2{
+           /* flex-direction: column; */
+           /* padding: 20px; */
+       }
+       .D-2-2{
+           /* flex-direction: column; */
+           padding: 15px;
+           width: 97%;
+           text-align: center;
+          
+       }
+       .DashBoard-2{
+           margin: 0;
+           /* display: flex; */
+           
+       }
+       .Dash-1{
+           margin: 0;
+           width: 97%;
+           margin: 10px;
+       }
+       .Dash-3{
+           margin: 20px 10px;
+           width: 97%;
+           padding: 10px 7px;
+       }
+       .Dash-2{
+           margin: 20px 10px;
+           width: 97%;
+           padding: 15px 6px;
+       }
+       .D-11{
+           padding: 0;
+           padding-top: 15px;
+           width: 97%;
+           margin: 10px;
+       }
+       .D-221{
+           margin-left: 0;
+           width: 100%;
+           margin: 15px 0;
+       }
+       .D-222{
+           display: contents;
+       }
+       .D-222 .recharts-surface{
+           width: 450px;
+           height: 260px;
+           
+       }
+       .header_div h2{
+           /* text-align: center; */
+           margin: 10px 0;
+           /* margin-left: px; */
+       }
+       .recharts-default-legend{
+           display: none;
+       }
+       .recharts-default-tooltip{
+           display: none;
+       }
+       .recharts-tooltip-cursor{
+          display: none;
+       }
+       .TotalUser{
+           border:solid 2px grey;
+           border-top: none;
+           border-left: none;
+           border-bottom: none;
+           text-align: center;
+           padding: 20px 10;
+       }
+       .T-3{
+           width: 90%;
+          
+       }
+       .DashBoard-1 .TotalUser .T-2 h1 {
+           font-size: 45px;
+           margin: 10px 0;
+       }
+       .DashBoard-1 .D-11 h1{
+           font-size: 22px;
+           text-align: center;
+       }
+       .transaction{
+           margin: 30px 0;
+           padding: 20px;
+       }
+       .T-1{
+           justify-content: center;
+       }
+       .T-1 h6{
+           font-size: 15px;
+       }
+       .T-1 img{
+           height: 20px;
+           width: 20px;
+       }
+       /* .imageWrapper{
+        width:150%
+       } */
+       .DashBoard-1 .D-22 .Chart .recharts-surface{
+           width: 690px;
+           height: 340px;
+       }
+       .tspan{
+           font-size: 10px;
+       }
+       .recharts-cartesian-axis-tick-line{
+           display: none;
+       }
+       .recharts-text{
+           font-size: 12px;
+       }
+       .postReport{
+           margin: 0;
+       }
+       .showFlexinMedia{
+        display: flex;
+       }
+       #dashboardHeader{
+        margin: 10px;
+    }
+   
+}
+
+@media screen and (max-width:425px){
+    .Chart{
+        padding: 0;
+       }
+       .DashBoard-1{
+           margin: 0;
+           
+       }
+       .DashBoard{
+           flex-direction: column;
+           margin-top: 20px;
+           /* padding: 20px; */
+       } 
+       .Chart-2{
+           flex-direction: column;
+           padding: 20px;
+       }
+       .D-2-2{
+           flex-direction: column;
+           padding: 15px;
+           width: 94.5%;
+       }
+       .DashBoard-2{
+           margin: 0;
+       }
+       .Dash-1{
+           margin: 0;
+           width: 95%;
+           margin: 10px;
+       }
+       .Dash-3{
+           margin: 20px 10px;
+           width: 95%;
+           padding: 10px 7px;
+       }
+       .Dash-2{
+           margin: 20px 10px;
+           width: 95%;
+           padding: 15px 6px;
+       }
+       .D-11{
+           padding: 0;
+           padding-top: 15px;
+           width: 95%;
+           margin: 10px;
+       }
+       .D-221{
+           margin-left: 0;
+           width: 100%;
+           margin: 15px 0;
+       }
+       .D-222{
+           display: contents;
+       }
+       .D-222 .recharts-surface{
+           width: 350px;
+           height: 165px;
+           
+       }
+       .header_div h2{
+           /* text-align: center; */
+           margin: 10px 0;
+           /* margin-left: px; */
+       }
+       .recharts-default-legend{
+           display: none;
+       }
+       .recharts-default-tooltip{
+           display: none;
+       }
+       .recharts-tooltip-cursor{
+          display: none;
+       }
+       .TotalUser{
+           border:solid 2px grey;
+           border-top: none;
+           border-left: none;
+           border-right: none;
+           text-align: center;
+           padding: 20px 0;
+       }
+       .T-3{
+           width: 90%;
+       }
+       .DashBoard-1 .TotalUser .T-2 h1 {
+           font-size: 55px;
+           margin: 10px 0;
+       }
+       .DashBoard-1 .D-11 h1{
+           font-size: 22px;
+           text-align: center;
+       }
+       .transaction{
+           margin: 30px 0;
+           padding: 20px;
+       }
+       .T-1{
+           justify-content: center;
+       }
+       .T-1 h6{
+           font-size: 20px;
+       }
+       .T-1 img{
+           height: 25px;
+           width: 25px;
+       }
+       .DashBoard-1 .D-22 .Chart .recharts-surface{
+           width: 350px;
+           height: 200px;
+       }
+       .tspan{
+           font-size: 10px;
+       }
+       .recharts-cartesian-axis-tick-line{
+           display: none;
+       }
+       .recharts-text{
+           font-size: 10px;
+       }
+       .postReport{
+           margin: 0;
+       }
+       .showFlexinMedia{
+        display: flex;
+        flex-direction: column;
+       }
+    #dashboardHeader .H-1 h1{
+        font-size: 25px;
+        margin-top: 7px;
+    }
+    #dashboardHeader{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #dashboardHeader .H-2{
+        margin-top: 40px;
+    }
+    #dashboardHeader .H-1{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        top: 5px;
+    }
+    #dashboardHeader{
+        margin: 0;
+    }
+   
+}
+
+
+@media screen and (max-width:375px){
+    .Chart{
+        padding: 0;
+       }
+       .DashBoard-1{
+           margin: 0;
+           
+       }
+       .DashBoard{
+           flex-direction: column;
+           margin-top: 20px;
+           /* padding: 20px; */
+       } 
+       .Chart-2{
+           flex-direction: column;
+           padding: 20px;
+       }
+       .D-2-2{
+           flex-direction: column;
+           padding: 15px;
+           width: 94.5%;
+       }
+       .DashBoard-2{
+           margin: 0;
+       }
+       .Dash-1{
+           margin: 0;
+           width: 94.5%;
+           margin: 10px;
+       }
+       .Dash-3{
+           margin: 20px 10px;
+           width: 94.5%;
+           padding: 10px 7px;
+       }
+       .Dash-2{
+           margin: 20px 10px;
+           width: 94.5%;
+           padding: 15px 6px;
+       }
+       .D-11{
+           padding: 0;
+           padding-top: 15px;
+           width: 94%;
+           margin: 10px;
+       }
+       .D-221{
+           margin-left: 0;
+           width: 100%;
+           margin: 15px 0;
+       }
+       .D-222{
+           display: contents;
+       }
+       .D-222 .recharts-surface{
+           width: 300px;
+           height: 150px;
+           
+       }
+       .header_div h2{
+           /* text-align: center; */
+           margin: 10px 0;
+           /* margin-left: px; */
+       }
+       .recharts-default-legend{
+           display: none;
+       }
+       .recharts-default-tooltip{
+           display: none;
+       }
+       .recharts-tooltip-cursor{
+          display: none;
+       }
+       .TotalUser{
+           border:solid 2px grey;
+           border-top: none;
+           border-left: none;
+           border-right: none;
+           text-align: center;
+           padding: 20px 0;
+       }
+       .T-3{
+           width: 90%;
+       }
+       .DashBoard-1 .TotalUser .T-2 h1 {
+           font-size: 55px;
+           margin: 10px 0;
+       }
+       .DashBoard-1 .D-11 h1{
+           font-size: 22px;
+           text-align: center;
+       }
+       .transaction{
+           margin: 30px 0;
+           padding: 20px;
+       }
+       .T-1{
+           justify-content: center;
+       }
+       .T-1 h6{
+           font-size: 20px;
+       }
+       .T-1 img{
+           height: 25px;
+           width: 25px;
+       }
+       .DashBoard-1 .D-22 .Chart .recharts-surface{
+           width: 300px;
+           height: 170px;
+       }
+       .tspan{
+           font-size: 10px;
+       }
+       .recharts-cartesian-axis-tick-line{
+           display: none;
+       }
+       .recharts-text{
+           font-size: 10px;
+       }
+       .postReport{
+           margin: 0;
+       }
+       #dashboardHeader .H-1 h1{
+        font-size: 25px;
+        margin-top: 7px;
+    }
+    #dashboardHeader .H-1{
+        position: absolute;
+        top: 5px;
+        /* left: 85px;    */
+        justify-content: center;
+    }
+    #dashboardHeader .H-2{
+        margin-top: 50px;
+    }
+    #dashboardHeader{
+        margin: 0;
+    }
+     
+}
+
+
+
+@media screen and (max-width:320px){
+    .Chart{
+     padding: 0;
+    }
+    .DashBoard-1{
+        margin: 0;
+        
+    }
+    .DashBoard{
+        flex-direction: column;
+        margin-top: 20px;
+        /* padding: 20px; */
+    } 
+    .Chart-2{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .D-2-2{
+        flex-direction: column;
+        padding: 15px;
+        width: 93%;
+    }
+    .DashBoard-2{
+        margin: 0;
+    }
+    .Dash-1{
+        margin: 0;
+        width: 93%;
+        margin: 10px;
+    }
+    .Dash-3{
+        margin: 20px 10px;
+        width: 93%;
+        padding: 10px 7px;
+    }
+    .Dash-2{
+        margin: 20px 10px;
+        width: 93%;
+        padding: 15px 6px;
+    }
+    .D-11{
+        padding: 0;
+        padding-top: 15px;
+        width: 93.5%;
+        margin: 10px;
+    }
+    .D-221{
+        margin-left: 0;
+        width: 100%;
+        margin: 15px 0;
+    }
+    .D-222{
+        display: contents;
+    }
+    .D-222 .recharts-surface{
+        width: 235px;
+        height: 140px;
+        
+    }
+    .header_div h2{
+        /* text-align: center; */
+        margin: 10px 0;
+        /* margin-left: 18px; */
+    }
+    .recharts-default-legend{
+        display: none;
+    }
+    .recharts-default-tooltip{
+        display: none;
+    }
+    .recharts-tooltip-cursor{
+       display: none;
+    }
+    .TotalUser{
+        border:solid 2px grey;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .T-3{
+        width: 90%;
+    }
+    .DashBoard-1 .TotalUser .T-2 h1 {
+        font-size: 55px;
+        margin: 10px 0;
+    }
+    .DashBoard-1 .D-11 h1{
+        font-size: 18px;
+        text-align: center;
+    }
+    .transaction{
+        margin: 30px 0;
+        padding: 20px;
+    }
+    .T-1{
+        justify-content: center;
+    }
+    .T-1 h6{
+        font-size: 20px;
+    }
+    .T-1 img{
+        height: 25px;
+        width: 25px;
+    }
+    .DashBoard-1 .D-22 .Chart .recharts-surface{
+        width: 250px;
+        height: 150px;
+    }
+    .tspan{
+        font-size: 10px;
+    }
+    .recharts-cartesian-axis-tick-line{
+        display: none;
+    }
+    .recharts-legend-wrapper{
+        /* height: 155px; */
+    }
+    .recharts-text{
+        font-size: 10px;
+    }
+    .postReport{
+        margin: 0;
+    }
+    #dashboardHeader .H-1 h1{
+        font-size: 25px;
+        margin-top: 7px;
+    }
+    #dashboardHeader .H-1{
+        position: absolute;
+        top: 5px;
+        text-align: center;
+        /* left: 85px;    */
+    }
+    #dashboardHeader .H-2{
+        margin-top: 50px;
+    }
+    #dashboardHeader .H-1{
+        width: 100%;
+    }
+    #dashboardHeader{
+        margin: 0;
+    }
+    
+   
+  
+
+}

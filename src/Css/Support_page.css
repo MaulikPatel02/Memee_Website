@@ -1,0 +1,41 @@
+.dropdown button span{
+    font-size: 15px;
+    margin: auto 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .Support_Drp .dropdown button{
+        width: 100%;
+        text-align: center;
+       }
+   
+}
+
+@media screen and (max-width:425px){
+    .Support_Drp .dropdown button{
+        width: 100%;
+        text-align: center;
+       }
+   
+}
+
+
+@media screen and (max-width:375px){
+   .Support_Drp .dropdown button{
+    width: 100%;
+    text-align: center;
+   }
+  
+}

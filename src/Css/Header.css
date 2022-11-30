@@ -1,0 +1,258 @@
+.Header{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 25px 15px;
+    margin-top: 46px;
+}
+.H-1{
+    display: flex;
+    align-items: center;
+    flex: 5.2;
+    margin-left: 40px;
+}
+.H-1 h1{
+    font-size: 45px;
+    font-weight: 200;
+}
+.H-1 h1 span{
+    font-weight: 700;
+}
+#hand{
+    position: relative;
+    left: -35px;
+}
+.handicon{
+    margin: auto 20px;
+}
+
+.H-2{
+    flex: 1.9;
+    width: 100%;
+}
+.H-2 input{
+    border-radius: 24px;
+    border-style: none;
+    width:85%;
+    background: #201E23;
+    padding: 10px;
+    padding-left: 45px;
+    align-items: center;
+    caret-color: white;
+}
+.H-2 img{
+    position: relative;
+    left: 35px;
+}
+
+.H-3{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+}
+.H-3 .bellNotification img{
+ height: 25px;
+}
+#BellNumber img{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: -21px;
+    top: -15px;
+}
+.NumOfNotification h6{
+    position: relative;
+    left: -6px;
+    top: -13px;
+    z-index: 1;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media responsive */
+
+
+
+@media screen and (max-width:1024px){
+    .H-1{
+        flex: 3;
+    }
+    .Header .H-3{
+        position: absolute;
+        top: 12px;
+        right: 0;
+    }
+    .H-2 input{
+       /* width: 100%; */
+    }
+   
+   
+    .H-3 .bellNotification img{
+        height: 23px;
+    }
+    #BellNumber img {
+        height: 12px;
+        width: 12px;
+        top: -10px;
+        left: -11px;
+    }
+    .NumOfNotification h6 {
+      display: none;
+    }
+    .Header .H-1{
+        width: 100%;
+    }
+   
+}
+
+
+
+@media screen and (max-width:768px){
+    .Header .H-3{
+        position: absolute;
+        top: 14px;
+        right: 0;
+    }
+    .H-2 input{
+       /* width: 100%; */
+    }
+   
+    .H-1{
+        flex: 2.3;
+        width: 100%;
+    }
+    .H-3{
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+    .H-3 .bellNotification img{
+        height: 23px;
+    }
+    #BellNumber img {
+        height: 12px;
+        width: 12px;
+        top: -11px;
+        left: -13px;
+    }
+    .NumOfNotification h6 {
+      display: none;
+    }
+    .Header .H-1{
+        width: 100%;
+    }
+   
+}
+
+@media screen and (max-width:425px){
+    .Header .H-3{
+        /* display: none; */
+        position: absolute;
+        top: 12px;
+        right: 0;
+    }
+    .H-3 .bellNotification img{
+        height: 23px;
+    }
+    #BellNumber img {
+        height: 12px;
+        width: 12px;
+        top: -10px;
+        left: -11px;
+    }
+    .NumOfNotification h6 {
+      display: none;
+    }
+    .Header .H-1{
+        width: 100%;
+    }
+   
+}
+
+
+@media screen and (max-width:375px){
+ 
+    .Header .H-3{
+        /* display: none; */
+        position: absolute;
+        top: 12px;
+        right: 0;
+    }
+    .H-3 .bellNotification img{
+        height: 20px;
+    }
+    #BellNumber img {
+        height: 10px;
+        width: 10px;
+        top: -10px;
+        left: -11px;
+    }
+    .NumOfNotification h6 {
+      display: none;
+    }
+    .Header .H-1{
+        width: 100%;
+    }
+    .Header{
+        flex-direction: column;
+        margin: 0;
+    }
+    .H-1{
+        margin: 0;
+    }
+
+}
+
+
+
+@media screen and (max-width:320px){
+    .Header .H-3{
+        /* display: none; */
+        position: absolute;
+        top: 12px;
+        right: 0;
+    }
+    .H-3 .bellNotification img{
+        height: 20px;
+    }
+    .Header .H-1{
+        width: 100%;
+    }
+    #BellNumber img {
+        height: 10px;
+        width: 10px;
+        top: -10px;
+        left: -11px;
+    }
+    .NumOfNotification h6 {
+      display: none;
+    }
+    .H-1{
+        margin: 0;
+    }
+ 
+   
+   
+}
+

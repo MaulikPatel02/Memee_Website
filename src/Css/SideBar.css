@@ -1,0 +1,178 @@
+.SideBar {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.S-1 img{
+    width: 160px;
+    height: 45.78px;
+    margin: 35px;
+}
+.S-2{
+  margin-top:25px;
+
+}
+
+.S-2 ul h5 {
+  color: #9b9b9b;
+  font-size: 16px;
+}
+.S-2 ul{
+  padding: 0;
+  
+}
+
+.S-2 ul li {
+  display: flex;
+  align-items: center;
+  padding: 17px 5px;
+
+}
+
+.S-2 ul h5{
+    margin: 18px 20px;
+}
+
+.S-2 ul li:hover {
+  cursor: pointer;
+  background: linear-gradient(180deg, #FFE299 0%, #F6B202 100%);
+  border-radius: 30px;
+ 
+}
+
+.S-2 ul li:hover  .DashBoard-Word {
+  color: black;
+  font-weight: 600;
+}
+
+.S-2 ul li:hover  .Dashboard svg{
+  color: black;
+}
+
+
+.DashBoard-Word {
+  color: #9b9b9b;
+  align-items: center;
+}
+.Dashboard svg {
+  color: #9b9b9b;
+  margin: auto 15px;
+  height: 22px;
+  width: 22px;
+}
+.S-2 ul li img{
+  height:20px;
+  width: 20px;
+  position: relative;
+  right: -20px;
+}
+.S-2 ul li h6{
+  margin: 0;
+  color: white;
+  position: relative;
+  right: -33.5px;
+  z-index: 1;
+  font-size: 13px;
+}
+
+
+.S-3{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    margin-top: auto;
+   margin-bottom: 10px;
+  
+    
+}
+.S-3User img{
+    background: #E7FAFF;
+    border-radius: 50%;
+}
+.S-3Admin h6{
+    color: #9B9B9B;
+    font-size: 12px;
+    margin: 5px auto;
+}
+.S-3Admin h5{
+    margin: 0;
+}
+.S-3Admin{
+    margin: auto 20px;
+}
+.S-3DropDown{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media responsive */
+
+
+
+@media screen and (max-width:1024px){
+   .S-2{
+    margin-top: 0;
+   }
+   .S-1 img{
+    margin: 20px;
+    height: 36.78px;
+    width: 140px;
+   }
+   
+}
+
+
+
+@media screen and (max-width:768px){
+   
+   
+}
+
+@media screen and (max-width:425px){
+  .SideBar{
+    padding: 10px;
+  }
+   
+}
+
+
+@media screen and (max-width:375px){
+  .SideBar{
+    padding: 15px;
+  }
+   
+}
+
+
+
+@media screen and (max-width:320px){
+  .SideBar{
+    padding: 10px;
+  }
+   
+}
+
+

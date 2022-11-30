@@ -1,0 +1,377 @@
+.Tournament_MeMee_post_by_user {
+  padding: 30px;
+}
+.Tournament_MeMee_post_by_user_postpage {
+  background: rgba(32, 30, 35, 1);
+  border-radius: 30px;
+  margin-top: 50px;
+  padding: 25px;
+}
+.Tournament_MeMee_post_by_user_postpage_userProfile ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  color: white;
+}
+.Tournament_MeMee_post_by_user_postpage_userProfile ul li {
+  margin: auto 5px;
+}
+.Tournament_MeMee_post_by_user_postpage_userProfile ul li:nth-child(2) img {
+  height: 60px;
+}
+.Tournament_MeMee_post_by_user_postpage_userProfile ul li:nth-child(3) h5 {
+  font-size: 17px;
+}
+.Tournament_MeMee_post_by_user_postpage_userProfile ul li:nth-child(3) h6 {
+  font-size: 12px;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 1);
+}
+.Tournament_MeMee_post_by_user_postpage h2 {
+  color: white;
+  font-size: 21px;
+  margin-top: 50px;
+  margin-left: 7px;
+}
+.Tournament_MeMee_post {
+  background: rgba(32, 30, 35, 1);
+  margin-top: 50px;
+  
+}
+
+.Memee_post_cards_Details:hover .Tournament_MeMee_post{
+  background:red;
+}
+
+#MeMee_img {
+  border-radius: 15px;
+}
+.Memee_post_cards_Details ul {
+  list-style-type: none;
+  color: white;
+}
+
+.Memee_post_cards{
+  position: relative;
+}
+
+.Memee_post_cards_Details ul{
+  margin: 0;
+  padding: 0;
+  margin-left: 17px;
+  margin-bottom: 22px;
+}
+
+.Memee_post_cards_Details ul li button {
+  padding: 5px 12px;
+  border-radius: 10px;
+  border-style: none;
+
+  font-size: 15px;
+}
+.Memee_post_cards_Details ul li button:nth-child(1) {
+  color: green;
+  font-weight: 600;
+  align-items: center;
+}
+.Memee_post_cards_Details ul li button:nth-child(2) {
+  color: red;
+  font-weight: 600;
+  align-items: center;
+  font-size: 17px;
+  margin-left: 15px;
+}
+.Memee_post_cards_Details ul li button:nth-child(2) img {
+  margin-right: 5px;
+  height: 11px;
+  margin-left: 5px;
+}
+.Memee_post_cards_Details ul li button:nth-child(1) img {
+  margin-right: 5px;
+  height: 12px;
+  margin-left: 5px;
+}
+.Memee_post_cards_Details{
+    transition:0.35s all ease;
+    color:#ccc;
+    /* transform:translateY(0px); */
+    opacity:0;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* padding-bottom: 100px;  */
+}
+
+.Memee_post_cards_Details ul li:nth-child(1){
+    font-size: 15px ;
+    font-weight: 600;
+    
+}
+.Memee_post_cards_Details ul li:nth-child(2){
+    font-size: 20px ;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.Memee_post_cards_Details{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 15px
+}
+
+.Memee_post_cards:hover .Memee_post_cards_Details{
+  /* transform:translateY(0px); */
+  opacity:1;
+  background-color: rgba(0, 0, 0, 0.815);
+
+}
+.Memee_post_cards img:hover{
+    /* opacity:0.3; */
+}
+.Tournament_MeMee_post{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Memee_post_cards{
+    margin:  20px;
+}
+.Tournament_MeMee_post{
+  height: 700px;
+  width: 1090px;
+  overflow: scroll;
+}
+.Tournament_MeMee_post::-webkit-scrollbar{
+  width: 5px;
+}
+.Tournament_MeMee_post::-webkit-scrollbar-thumb {
+  background: rgba(255, 190, 92, 1);
+
+}
+#MeMee_img{
+  height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media responsive */
+
+
+
+@media screen and (max-width:1024px){
+  .Tournament_MeMee_post_by_user{
+    padding: 0;
+  }
+  .Tournament_MeMee_post{
+    /* flex-direction: column; */
+    height: 1000px;
+    width: 950px;
+    overflow: auto;
+    margin-top: 20px;
+  }
+  .Tournament_MeMee_post_by_user_postpage{
+    padding: 15px;
+    width: 1000px;
+    margin: 20px 10px;
+  }
+  .Memee_post_cards{
+    margin: 10px;
+  }
+  #MeMee_img{
+    height: 290px;
+  }
+  .Tournament_MeMee_post_by_user_postpage h2{
+    font-size: 17px;
+    margin: 0;
+    text-align: center;
+  }
+  .Tournament_MeMee_post_by_user_postpage_userProfile ul li:nth-child(2) img {
+    height: 45px;
+  }
+  .Tournament_MeMee_post_by_user .Header .H-1 h1{
+    margin-left: 50px;
+  }
+  .Tournament_MeMee_post_by_user .Header .H-2 {
+    padding: 0 10px;
+  }
+   
+}
+
+
+
+@media screen and (max-width:768px){
+  .Tournament_MeMee_post_by_user{
+    padding: 0;
+  }
+  .Tournament_MeMee_post{
+    /* flex-direction: column; */
+    height: 1000px;
+    width: 700px;
+    overflow: auto;
+    margin-top: 20px;
+  }
+  .Tournament_MeMee_post_by_user_postpage{
+    padding: 15px;
+    width: 745px;
+    margin: 20px 10px;
+  }
+  .Memee_post_cards{
+    margin: 10px;
+  }
+  #MeMee_img{
+    height: 320px;
+  }
+  .Tournament_MeMee_post_by_user_postpage h2{
+    font-size: 17px;
+    margin: 0;
+    text-align: center;
+  }
+  .Tournament_MeMee_post_by_user_postpage_userProfile ul li:nth-child(2) img {
+    height: 45px;
+  }
+   
+}
+
+@media screen and (max-width:425px){
+  .Tournament_MeMee_post_by_user{
+    padding: 0;
+  }
+  .Tournament_MeMee_post{
+    /* flex-direction: column; */
+    height: 1000px;
+    width: 365px;
+    overflow: auto;
+    margin-top: 20px;
+  }
+  .Tournament_MeMee_post_by_user_postpage{
+    padding: 15px;
+    width: 405px;
+    margin: 20px 10px;
+  }
+  .Memee_post_cards{
+    margin: 10px;
+  }
+  #MeMee_img{
+    height: 325px;
+  }
+  .Tournament_MeMee_post_by_user_postpage h2{
+    font-size: 17px;
+    margin: 0;
+    text-align: center;
+  }
+  .Tournament_MeMee_post_by_user_postpage_userProfile ul li:nth-child(2) img {
+    height: 45px;
+  }
+   
+}
+
+
+@media screen and (max-width:375px){
+  .Tournament_MeMee_post_by_user{
+    padding: 0;
+  }
+  .Tournament_MeMee_post{
+    /* flex-direction: column; */
+    height: 1000px;
+    width: 320px;
+    overflow: auto;
+    margin-top: 20px;
+  }
+  .Tournament_MeMee_post_by_user_postpage{
+    padding: 15px;
+    width: 355px;
+    margin: 20px 10px;
+  }
+  .Memee_post_cards{
+    margin: 10px;
+  }
+  #MeMee_img{
+    height: 290px;
+  }
+  .Tournament_MeMee_post_by_user_postpage h2{
+    font-size: 17px;
+    margin: 0;
+    text-align: center;
+  }
+  .Tournament_MeMee_post_by_user_postpage_userProfile ul li:nth-child(2) img {
+    height: 45px;
+  }
+   
+}
+
+
+
+@media screen and (max-width:320px){
+  .Tournament_MeMee_post_by_user{
+    padding: 0;
+  }
+  .Tournament_MeMee_post{
+    /* flex-direction: column; */
+    height: 1000px;
+    width: 270px;
+    overflow: auto;
+    margin-top: 20px;
+  }
+  .Tournament_MeMee_post_by_user_postpage{
+    padding: 15px;
+    width: 300px;
+    margin: 20px 10px;
+  }
+  .Memee_post_cards{
+    margin: 10px;
+  }
+  #MeMee_img{
+    height: 244px;
+  }
+  .Tournament_MeMee_post_by_user_postpage h2{
+    font-size: 17px;
+    margin: 0;
+    text-align: center;
+  }
+  .Tournament_MeMee_post_by_user_postpage_userProfile ul li:nth-child(2) img {
+    height: 45px;
+  }
+ 
+   
+}

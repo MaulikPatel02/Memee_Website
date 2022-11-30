@@ -1,0 +1,664 @@
+.Winner_FeedBack_Page{
+    padding: 30px;
+}
+.Winner_FeedBack_Page_Details{
+    background: rgba(32, 30, 35, 1);
+    border-radius: 30px;
+    margin-top: 50px;
+    display: flex;
+}
+.Winner_profile_section{
+    flex: 2.3;
+    background: rgba(37, 34, 40, 1);
+    border-style: none;
+    padding: 25px;
+    border-radius: 30px 0px 0px 30px;
+}
+.Winner_profile_section h2{
+    color: white;
+    font-size: 25px;
+    margin: 15px auto;
+}
+.Amazon_Giftcards{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+
+}
+.A_G_1{
+    width: 100%;
+}
+.A_G_1:nth-child(2) h3{
+    font-size: 15px;
+    color: white;
+    padding-left: 40px;
+}
+.A_G_1:nth-child(1) h3{
+    font-size: 15px;
+    color: white;
+    padding-left: 2px;
+}
+#A_G_HR{
+    border: 2px solid white ;
+    width: 100%;
+    border-radius: 1px;
+}
+#A_G_HR3{
+    border: 2px solid white ;
+    width: 100%;
+    border-radius: 1px;
+}
+#A_G_HR2{
+    border: 2px solid rgb(255, 123, 0);
+    width: 100%;
+    border-radius: 2px;
+}
+.F_user_1{
+    background: rgba(48, 45, 52, 1);
+    padding: 18px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 20px auto;
+}
+.F_user_1_Details{
+    width: 100%;
+}
+.F_user_1_Details_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.F_user_1_Details_1 h5{
+    font-size: 16px;
+    color: white;
+    margin: auto 10px;
+}
+.F_user_1_Details_1 h6{
+    font-size: 11px;
+
+}
+.F_user_1_Details_2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+.F_user_1_Details_2 h5{
+    color: white;
+    font-size: 14px;
+    margin: 0;
+}
+.F_user_1_Details_2 span img{
+    position: absolute;
+}
+.F_user_1_Details_2 span h6{
+    position: relative;
+    z-index: 1;
+    top: 2px;
+    left: 4.5px;
+}
+.Winner_chat{
+    flex: 5;
+    padding: 25px;
+}
+.Winner_chat_header{
+    display: flex;
+    width: 100%;
+}
+.Chat_User_img{
+    margin-top:10px ;
+}
+.Chat_user_Details{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto 25px;
+    margin-top: 10px;
+}
+.User_d_1 h4{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+.User_d_1 h5{
+    color: white;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+}
+.User_d_1 h6{
+    color: rgba(255, 190, 92, 1);
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    margin: 0;
+    margin-top: 20px;
+}
+#dmenu{
+    width: 50%;
+    padding: 0;
+    color: white;
+}
+#dmenu-2{
+    color: white;
+}
+.User_chat{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 40px;
+}
+.Support_chat{
+    width: 100%;
+}
+.User_chat img{
+    padding: 10px;
+}
+.User_chat_details{
+    background: rgba(49, 48, 50, 1);
+    padding: 18px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.User_chat_details h5{
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+.Support_chat{
+    display: flex;
+    flex-direction: column;
+}
+.User_chat_2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 40px;
+}
+.User_chat_details_2{
+    background: rgba(49, 48, 50, 1);
+    padding: 18px;
+    border-radius: 15px;
+    margin-left: 10px; 
+}
+.User_chat_details_2 h5{
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    line-height: 25px;
+}
+.Chat_KeyBoard{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+.chat_key_1 img{
+    margin: auto 15px;
+}
+.chat_key_1 input{
+    padding: 7px;
+    background: rgba(37, 34, 40, 0);
+    border-style: none;
+    padding-right: 150px;
+    caret-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media responsive */
+
+
+
+@media screen and (max-width:1024px){
+    .Winner_FeedBack_Page{
+        padding: 10px;
+    }
+    
+    .Winner_FeedBack_Page_Details{
+        /* flex-direction: column; */
+    }
+    .Winner_profile_section{
+        padding: 10px;
+        width: 300px;
+    }
+    .Winner_chat{
+        width: 300px;
+        padding: 15px;
+    }
+    .Chat_user_Details{
+        /* flex-direction: column; */
+    }
+    .Chat_KeyBoard{
+        /* flex-direction: column; */
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+    }
+    .chat_key_1{
+        width: 100%;
+        display: flex;
+    }
+    .A_G_1:nth-child(1) h3{
+        font-size: 13px;
+    }
+    .A_G_1:nth-child(2) h3{
+        font-size: 13px;
+    }
+    .Winner_profile_section h2{
+        text-align: center;
+    }
+    .F_user_1{
+        padding: 11px;
+    } 
+    .F_user_1_Details_1 h5{
+        font-size: 14px;
+    }
+    .F_user_1_Details_2 h5{
+        font-size: 12px;
+    }
+    .User_chat_details h5{
+        font-size: 13px;
+    }
+    .User_chat_details{
+        padding: 10px;
+        text-align: end;
+    } 
+    .User_chat_details_2 h5{
+        font-size: 13px;
+    }
+    .User_chat_details_2 {
+        padding: 10px;
+        text-align: start;
+    }
+    .User_d_1 h4{
+        font-size: 18px;
+    }
+    .User_d_1 h5{
+        font-size: 12px;
+    }
+    .User_d_1 h6 {
+        font-size: 12px;
+        margin-top: 0;
+        margin: 10px 0;
+        margin-bottom: 23px;
+    }
+    .User_d_2 .dropdown{
+        font-size: 11px;
+    }
+    .chat_key_1 input{
+        padding-right: 0;
+        width: 460px;
+    }
+    .chat_key_1 img {
+        margin: auto 10px;
+    }
+   
+}
+
+
+
+@media screen and (max-width:768px){
+    .Winner_FeedBack_Page{
+        padding: 10px;
+    }
+    
+    .Winner_FeedBack_Page_Details{
+        /* flex-direction: column; */
+    }
+    .Winner_profile_section{
+        padding: 10px;
+        width: 300px;
+    }
+    .Winner_chat{
+        width: 300px;
+        padding: 15px;
+    }
+    .Chat_user_Details{
+        /* flex-direction: column; */
+    }
+    .Chat_KeyBoard{
+        /* flex-direction: column; */
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+    }
+    .chat_key_1{
+        width: 100%;
+        display: flex;
+    }
+    .A_G_1:nth-child(1) h3{
+        font-size: 13px;
+    }
+    .A_G_1:nth-child(2) h3{
+        font-size: 13px;
+    }
+    .Winner_profile_section h2{
+        text-align: center;
+    }
+    .F_user_1{
+        padding: 11px;
+    } 
+    .F_user_1_Details_1 h5{
+        font-size: 14px;
+    }
+    .F_user_1_Details_2 h5{
+        font-size: 12px;
+    }
+    .User_chat_details h5{
+        font-size: 13px;
+    }
+    .User_chat_details{
+        padding: 10px;
+        text-align: end;
+    } 
+    .User_chat_details_2 h5{
+        font-size: 13px;
+    }
+    .User_chat_details_2 {
+        padding: 10px;
+        text-align: start;
+    }
+    .User_d_1 h4{
+        font-size: 18px;
+    }
+    .User_d_1 h5{
+        font-size: 12px;
+    }
+    .User_d_1 h6 {
+        font-size: 12px;
+        margin-top: 0;
+        margin: 10px 0;
+        margin-bottom: 23px;
+    }
+    .User_d_2 .dropdown{
+        font-size: 11px;
+    }
+    .chat_key_1 input{
+        padding-right: 0;
+        width: 320px;
+    }
+    .chat_key_1 img {
+        margin: auto 10px;
+    }
+
+   
+}
+
+@media screen and (max-width:425px){
+    .Winner_FeedBack_Page{
+        padding: 10px;
+    }
+    
+    .Winner_FeedBack_Page_Details{
+        flex-direction: column;
+    }
+    .Winner_profile_section{
+        padding: 10px;
+        width: 405px;
+    }
+    .Winner_chat{
+        width: 405px;
+        padding: 15px;
+    }
+    .Chat_user_Details{
+        flex-direction: column;
+    }
+    .Chat_KeyBoard{
+        /* flex-direction: column; */
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+    }
+    .chat_key_1{
+        width: 100%;
+        display: flex;
+    }
+    .A_G_1:nth-child(1) h3{
+        font-size: 13px;
+    }
+    .A_G_1:nth-child(2) h3{
+        font-size: 13px;
+    }
+    .Winner_profile_section h2{
+        text-align: center;
+    }
+    .F_user_1{
+        padding: 11px;
+    } 
+    .F_user_1_Details_1 h5{
+        font-size: 14px;
+    }
+    .F_user_1_Details_2 h5{
+        font-size: 12px;
+    }
+    .User_chat_details h5{
+        font-size: 13px;
+    }
+    .User_chat_details{
+        padding: 10px;
+        text-align: end;
+    } 
+    .User_chat_details_2 h5{
+        font-size: 13px;
+    }
+    .User_chat_details_2 {
+        padding: 10px;
+        text-align: start;
+    }
+    .User_d_1 h4{
+        font-size: 18px;
+    }
+    .User_d_1 h5{
+        font-size: 12px;
+    }
+    .User_d_1 h6 {
+        font-size: 12px;
+        margin-top: 0;
+        margin: 10px 0;
+    }
+    .User_d_2 .dropdown{
+        font-size: 11px;
+    }
+    .chat_key_1 input{
+        padding-right: 0;
+        width: 240px;
+
+    }
+    .chat_key_1 img {
+        margin: auto 5px;
+    }
+   
+}
+
+
+@media screen and (max-width:375px){
+    .Winner_FeedBack_Page{
+        padding: 10px;
+    }
+    
+    .Winner_FeedBack_Page_Details{
+        flex-direction: column;
+    }
+    .Winner_profile_section{
+        padding: 10px;
+        width: 356px;
+    }
+    .Winner_chat{
+        width: 356px;
+        padding: 15px;
+    }
+    .Chat_user_Details{
+        flex-direction: column;
+    }
+    .Chat_KeyBoard{
+        /* flex-direction: column; */
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+    }
+    .chat_key_1{
+        width: 100%;
+        display: flex;
+    }
+    .A_G_1:nth-child(1) h3{
+        font-size: 13px;
+    }
+    .A_G_1:nth-child(2) h3{
+        font-size: 13px;
+    }
+    .Winner_profile_section h2{
+        text-align: center;
+    }
+    .F_user_1{
+        padding: 11px;
+    } 
+    .F_user_1_Details_1 h5{
+        font-size: 14px;
+    }
+    .F_user_1_Details_2 h5{
+        font-size: 12px;
+    }
+    .User_chat_details h5{
+        font-size: 13px;
+    }
+    .User_chat_details{
+        padding: 10px;
+        text-align: end;
+    } 
+    .User_chat_details_2 h5{
+        font-size: 13px;
+    }
+    .User_chat_details_2 {
+        padding: 10px;
+        text-align: start;
+    }
+    .User_d_1 h4{
+        font-size: 18px;
+    }
+    .User_d_1 h5{
+        font-size: 12px;
+    }
+    .User_d_1 h6 {
+        font-size: 12px;
+        margin-top: 0;
+        margin: 10px 0;
+    }
+    .User_d_2 .dropdown{
+        font-size: 11px;
+    }
+    .chat_key_1 input{
+        padding-right: 0;
+        width: 185px;
+
+    }
+    .chat_key_1 img {
+        margin: auto 5px;
+    }
+   
+}
+
+
+
+@media screen and (max-width:320px){
+    .Winner_FeedBack_Page{
+        padding: 10px;
+    }
+    
+    .Winner_FeedBack_Page_Details{
+        flex-direction: column;
+    }
+    .Winner_profile_section{
+        padding: 10px;
+        width: 300px;
+    }
+    .Winner_chat{
+        width: 300px;
+        padding: 15px;
+    }
+    .Chat_user_Details{
+        flex-direction: column;
+    }
+    .Chat_KeyBoard{
+        /* flex-direction: column; */
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+    }
+    .chat_key_1{
+        width: 100%;
+        display: flex;
+    }
+    .A_G_1:nth-child(1) h3{
+        font-size: 13px;
+    }
+    .A_G_1:nth-child(2) h3{
+        font-size: 13px;
+    }
+    .Winner_profile_section h2{
+        text-align: center;
+    }
+    .F_user_1{
+        padding: 11px;
+    } 
+    .F_user_1_Details_1 h5{
+        font-size: 14px;
+    }
+    .F_user_1_Details_2 h5{
+        font-size: 12px;
+    }
+    .User_chat_details h5{
+        font-size: 13px;
+    }
+    .User_chat_details{
+        padding: 10px;
+        text-align: end;
+    } 
+    .User_chat_details_2 h5{
+        font-size: 13px;
+    }
+    .User_chat_details_2 {
+        padding: 10px;
+        text-align: start;
+    }
+    .User_d_1 h4{
+        font-size: 18px;
+    }
+    .User_d_1 h5{
+        font-size: 12px;
+    }
+    .User_d_1 h6 {
+        font-size: 12px;
+        margin-top: 0;
+        margin: 10px 0;
+    }
+    .User_d_2 .dropdown{
+        font-size: 11px;
+    }
+    .chat_key_1 input{
+        padding-right: 0;
+        width: 150px;
+
+    }
+    .chat_key_1 img {
+        margin: auto 5px;
+    }
+   
+
+
+}

@@ -1,0 +1,76 @@
+.coin_container {
+  border: 3px solid #5e5e5e;
+  border-radius: 40px;
+  padding: 60px 40px 40px 40px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  background: #201e23;
+  z-index: 1;
+ 
+}
+.daily_coin_reward {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  margin: 0 0 20px 0;
+}
+.coin_value {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 28px;
+  background-color: #373737;
+  margin: 12px 0 20px 0;
+}
+
+.coin_value input {
+  padding: 18px 23px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #6c6c6c;
+}
+.save_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.save_button button {
+  padding: 20px 175px;
+  border-radius: 290px;
+  background-image: linear-gradient(180deg, #ffde88 0%, #ffb905 100%);
+  font-size: 23px;
+  text-align: center;
+  line-height: 27px;
+  border: none;
+  margin-top: 30px;
+  color: #000000;
+  font-family: "Gilroy-SemiBold";
+}
+.coin_cross {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background: linear-gradient(180deg, #ee0909 0%, #cc0b0b 100%);
+  color: white;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: -10%;
+  left: 80%;
+}
+.coin-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #939394;
+}

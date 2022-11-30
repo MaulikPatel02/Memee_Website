@@ -1,0 +1,559 @@
+.TournamentPage{
+    padding:30px;
+}
+.TournamentPage-2{
+    background: rgba(32, 30, 35, 1);
+    border-radius: 30px;
+    margin-top: 50px;
+    padding: 30px;
+    position: relative;
+}
+.TP-1{
+    display: flex;
+    /* background-color: blue; */
+}
+.TP-1 h5{
+    color: white;
+    margin: auto 10px;
+    font-size: 20px;
+}
+.TP-1 select{
+    border-radius: 10px;
+    background: rgba(49, 48, 50, 1);
+    color: rgba(216, 216, 216, 1);
+    border-style: none;
+    padding: 10px;
+    font-size: 12px;
+}
+.num{
+  /* position: relative; */
+  z-index: 1;
+  color: white;
+  font-size: 13px;
+  top: 5px;
+  text-align: center;
+  margin: 0;
+  background: rgba(203, 140, 71, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.topTen{
+    /* position: relative; */
+  z-index: 1;
+  color: white;
+  font-size: 13px;
+  top: 5px;
+  text-align: center;
+  margin: 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+    background-color: gray;
+}
+
+#numBg{
+    position: absolute;
+}
+#NUm-2{
+    color: white;
+    font-size: 14px;
+}
+#NUm-3{
+    border-radius: 11px;
+}
+.UserListPage-2 table tr th{
+    font-size: 13px;
+}
+
+
+.rdrCalendarWrapper{
+    position: absolute;
+    display: flex;
+    text-align: start;
+    border-radius: 20px;
+   color: white!important;
+    margin-top: 40px;
+    background:linear-gradient(0deg, #313032, #313032)!important;
+}
+.rdrWeekDay{
+    color: white!important;
+}
+.rdrDayNumber span{
+    color: white!important;
+}
+.rdrMonthAndYearPickers select{
+    color: white!important;
+    background: 
+    linear-gradient(0deg, #313032, #313032)!important;
+}
+.rdrDateDisplayItem input{
+    display: none;
+}
+.rdrDateDisplayWrapper{
+    display: none;
+}
+.rdrMonthPicker select option{
+    background: 
+    linear-gradient(0deg, #313032, #313032)!important;
+}
+
+
+/* ----------------------======= dropdown ========== */
+
+.dropDown_months{
+    position: absolute;
+    top: 26px;
+    left: 180px;
+    background-color:
+rgba(49, 48, 50, 1);
+    height: 32px;
+    width: 140px;
+    overflow: hidden;
+    transition: 0.28s ease-in;
+    border-radius: 25px;
+    user-select: none;
+}
+
+.dropDown_months div{
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.23s ease-in;
+    color: #D8D8D8;
+}
+
+.open_dropDown_months{
+    position: absolute;
+    background-color:
+rgba(49, 48, 50, 1);
+    top: 30px;
+    left: 180px;
+    height: 416px;
+    width: 140px;
+    transition: 0.23s ease-out;
+    border-radius: 17px;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+}
+
+.open_dropDown_months div{
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.28s ease-out;
+    color: #D8D8D8;
+}
+
+#DotsOfRewards{
+    cursor: pointer;
+}
+.open_dropDown_months div:hover{
+    background-color: #3C3A3F;
+}
+
+.ModalshowRewards{
+    position: absolute;
+    border: 1px solid rgba(94, 94, 94, 1);
+    border-radius: 10px;
+    background: #3C3A3F;
+    right: 90px;
+}
+.ModalshowRewards h5{
+    font-size: 14px;
+    margin: 0;
+    margin: 8px;
+    font-weight: 200;
+    color: rgba(155, 155, 155, 1);
+    cursor: pointer;
+}
+#Reward_Modal_hr{
+    border:  1px solid grey;
+    margin: 0;
+}
+
+
+
+
+
+
+/* modal 1 css */
+
+
+.Reawds_1_Modal{
+    background: #201e23;
+    border: 3px solid #5e5e5e;
+    border-radius: 23px;
+    padding: 20px;
+    top: 190px;
+    position: absolute;
+}
+
+.Reward_Modal_Details_1 table tr:nth-child(2) td{
+    border-bottom: none;
+}
+.Reward_Modal_Details_1 table tr td{
+    color: grey;
+    font-weight: 200;
+    font-size: 12px;
+    padding: 7px;
+}
+.M_2banner3 button img{
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+}
+.M_2banner3 button{
+    border-style: none;
+    margin: 15px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background: rgba(54, 54, 54, 1);
+}
+#span332{
+    color: green;
+    font-size: 17px;
+}
+#span12{
+    color: red;
+    font-size: 17px;
+}
+.M_2banner3{
+ padding: 15px;
+ background: rgba(61, 58, 58, 1);
+ border-radius: 20px;
+}
+.True_false{
+    text-align: center;
+}
+.Reward_modal_Img img{
+    height: 220px;
+    width: 230px;
+}
+.save_Banner_Send button{
+    padding: 9px;
+    border-radius: 25px;
+    background-image: linear-gradient(180deg, #ffde88 0%, #ffb905 100%);
+    font-size: 17px;
+    text-align: center;
+    width: 100%;
+    line-height: 27px;
+    border: none;
+    margin-top: 24px;
+}
+
+
+
+/* media modal */
+
+
+@media screen and (max-width:425px){
+    .Reawds_1_Modal{
+        width: 90%;
+        max-width: 300px;
+        top: 70px;
+        padding: 10px;
+    }
+    .Reward_Modal_Details_1{
+        width: 100%;
+    }
+    .Reward_Modal_Details_1{
+        width: 100%;
+        overflow: auto;
+    }
+    .Reward_modal_Img img {
+        height: 230px;
+        width: 243px;
+    }
+    #Rewards_Scroll_Media{
+        height: 500px;
+        overflow: auto;
+    }
+    .M_2banner3 button{
+        margin: 0;
+    }
+    .True_false{
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .Reawds_1_Modal{
+        width: 90%;
+        max-width: 300px;
+        top: 70px;
+        padding: 10px;
+    }
+    .Reward_Modal_Details_1{
+        width: 100%;
+    }
+    .Reward_Modal_Details_1{
+        width: 100%;
+        overflow: auto;
+    }
+    .Reward_modal_Img img {
+        height: 230px;
+        width: 243px;
+    }
+    #Rewards_Scroll_Media{
+        height: 500px;
+        overflow: auto;
+    }
+    .M_2banner3 button{
+        margin: 0;
+    }
+    .True_false{
+        margin-top: 15px;
+    }
+}
+
+
+@media screen and (max-width:320px){
+    .Reawds_1_Modal{
+        width: 80%;
+        max-width: 300px;
+        top: 70px;
+        padding: 10px;
+    }
+    .Reward_Modal_Details_1{
+        width: 100%;
+        overflow: auto;
+    }
+   
+    .Reward_modal_Img img {
+        height: 200px;
+        width: 200px;
+    }
+    #Rewards_Scroll_Media{
+        height: 500px;
+        overflow: auto;
+    }
+    .M_2banner3 button{
+        margin: 0;
+    }
+    .True_false{
+        margin-top: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media responsive */
+
+
+
+@media screen and (max-width:1024px){
+    .TournamentPage-2{
+        width: 1000px;
+        overflow: auto;
+        margin: 0;
+        margin-top: 20px;
+        padding: 30px;
+    }
+    .TournamentPage{
+        padding: 10px;
+    }
+    .TournamentPage .Header .H-1 h1{
+        font-size: 40px;
+    }
+    /* .TournamentPage .Header .H-1{
+        flex: 2.1;
+        width: 100%;
+    }
+    .TournamentPage .Header .H-2{
+        flex: 1;
+    }
+    .TournamentPage .Header .H-3{
+        flex: 0.3;
+    } */
+   
+}
+
+
+
+@media screen and (max-width:768px){
+    .TournamentPage-2{
+        width: 748px;
+        overflow: auto;
+        margin: 0;
+        margin-top: 20px;
+        padding: 30px;
+    }
+    .TournamentPage{
+        padding: 10px;
+    }
+    .TournamentPage .Header .H-1 h1{
+        font-size: 40px;
+    }
+    /* .TournamentPage .Header .H-1{
+        flex: 1.5;
+        width: 100%;
+    }
+    .TournamentPage .Header .H-2{
+        flex: 1;
+    }
+    .TournamentPage .Header .H-3{
+        flex: 0.3;
+    } */
+    
+   
+}
+
+@media screen and (max-width:425px){
+    .TournamentPage-2{
+        width: 405px;
+        overflow: auto;
+        margin: 0;
+        margin-top: 20px;
+        padding: 30px;
+    }
+    .TournamentPage{
+        padding: 10px;
+       
+    }
+    .TournamentPage .Header{
+        flex-direction: column;
+    }
+    .TournamentPage .Header .H-1 h1{
+        font-size: 36px;
+    }
+    .TournamentPage .Header .H-2 {
+        padding: 0;
+        width: 100%;
+    }
+    .TournamentPage .Header .H-2 input{
+        margin: 15px 0px;
+        width: 100%;
+        margin: 0;
+    }
+    .TournamentPage .Header .H-2 img{
+        left: 11px;
+        top:34px;
+    }
+  
+   
+}
+
+
+@media screen and (max-width:375px){
+    .TournamentPage-2{
+        width: 355px;
+        overflow: auto;
+        margin: 0;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .TournamentPage{
+        padding: 10px;
+       
+    }
+    .TournamentPage .Header{
+        flex-direction: column;
+    }
+    .TournamentPage .Header .H-1 h1{
+        font-size: 36px;
+    }
+    .TournamentPage .Header .H-2 {
+        padding: 0;
+        width: 100%;
+    }
+    .TournamentPage .Header .H-2 input{
+        margin: 15px 0px;
+        width: 100%;
+        margin: 0;
+    }
+    .TournamentPage .Header .H-2 img{
+        left: 11px;
+        top:34px;
+    }
+   
+}
+
+
+
+@media screen and (max-width:320px){
+    .TournamentPage-2{
+        width: 300px;
+        overflow: auto;
+        margin: 0;
+        margin-top: 20px;
+        padding: 30px;
+    }
+    .TournamentPage{
+        padding: 10px;
+       
+    }
+    .TournamentPage .Header{
+        flex-direction: column;
+    }
+    .TournamentPage .Header .H-1 h1{
+        font-size: 32px;
+    }
+    .TournamentPage .Header .H-2 {
+        padding: 0;
+        width: 100%;
+    }
+    .TournamentPage .Header .H-2 input{
+        margin: 15px 0px;
+        width: 100%;
+        margin: 0;
+    }
+    .TournamentPage .Header .H-2 img{
+        left: 11px;
+        top:34px;
+    }
+  
+
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
